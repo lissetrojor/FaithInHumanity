@@ -24,8 +24,9 @@ button {
 button:hover {
   opacity: 0.3;
 }
-.style {
-  height:500px;
+.heading {
+  height:100px;
   background-color: lightslategray;
   font-size: 28px;
+  margin-bottom: 20px;
 }
