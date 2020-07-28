@@ -1,5 +1,5 @@
 body{
-  background-color:
+  background-image: url("https://media.discordapp.net/attachments/736376827982905356/737754953422078032/Background_-_Good_Vibes.jpg")
 }
 .parallax {
   background-image: url("https://www.berkeleyside.com/wp-content/uploads/2020/06/K0q4OHk_.jpg-large.jpeg");
@@ -81,6 +81,12 @@ button:hover {
   background-color: lightslategray;
   font-size: 26px;
 }
+#topbox {
+  height:30px;
+  background-color: lightslategray;
+  font-size: 20px;
+  color: black;
+}
 #wnbabox {
   height:225px;
   background-color: lightslategray;
@@ -100,8 +106,8 @@ p {
 
 #slideshow {
   overflow: hidden;
-  height: 510px;
-  width: 728px;
+  height: 528px;
+  width: 100%;
   margin: 0 auto;
 }
 
