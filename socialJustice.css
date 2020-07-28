@@ -1,3 +1,11 @@
+.parallax {
+  background-image: url("https://www.berkeleyside.com/wp-content/uploads/2020/06/K0q4OHk_.jpg-large.jpeg");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .navbar {
   overflow: hidden;
   display: flex;
@@ -6,8 +14,8 @@
   top: 0px;
 }
 button {
-  width: 175px;
-  height: 175px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   border: solid 5px;
   padding: 10px;
@@ -15,4 +23,9 @@ button {
 }
 button:hover {
   opacity: 0.3;
+}
+.style {
+  height:500px;
+  background-color: lightslategray;
+  font-size: 28px;
 }
