@@ -1,3 +1,6 @@
+body{
+  background-color:
+}
 .parallax {
   background-image: url("https://www.berkeleyside.com/wp-content/uploads/2020/06/K0q4OHk_.jpg-large.jpeg");
   height: 750px;
@@ -32,7 +35,7 @@
 }
 
 .parallax5 {
-  background-image: url("");
+  background-image: url("https://www.nbc.com/generetic/images/nbc_logo_og.jpg");
   height: 1000px;
   background-attachment: fixed;
   background-position: center;
