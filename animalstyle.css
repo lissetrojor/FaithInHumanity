@@ -1,0 +1,7 @@
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content:space-evenly;
+  position: sticky;
+  top: 0px;
+}
