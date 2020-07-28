@@ -18,7 +18,7 @@ body{
   background-size: cover;
 }
 .parallax3 {
-  background-image: url("https://unr.s3.amazonaws.com/prod/unr2016/wp-content/uploads/2020/07/27203705/NYLiberty-scaled-1.jpg");
+  background-image: url("https://assets3.thrillist.com/v1/image/2880875/1584x3000/scale;jpeg_quality=60;progressive.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;
@@ -77,8 +77,51 @@ button:hover {
   opacity: 0.3;
 }
 .text-box {
-  height:250px;
+  height:175px;
   background-color: lightslategray;
-  font-size: 28px;
+  font-size: 26px;
+}
+#wnbabox {
+  height:225px;
+  background-color: lightslategray;
+  font-size: 26px;
+}
+h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+p {
+  text-align: center;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
 }
