@@ -1,14 +1,14 @@
 body{
-  background-color:
+  background-image: url("https://media.discordapp.net/attachments/736376827982905356/737754953422078032/Background_-_Good_Vibes.jpg")
 }
-.parallax {
+/* .parallax {
   background-image: url("https://www.berkeleyside.com/wp-content/uploads/2020/06/K0q4OHk_.jpg-large.jpeg");
   height: 750px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .parallax2 {
   background-image: url("https://thegavoice.com/wp-content/uploads/2015/01/john-lewis-bridge.jpg");
   height: 700px;
@@ -36,7 +36,7 @@ body{
 
 .parallax5 {
   background-image: url("https://www.nbc.com/generetic/images/nbc_logo_og.jpg");
-  height: 600px;
+  height: 650px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,13 +78,23 @@ button:hover {
 }
 .text-box {
   height:175px;
-  background-color: lightslategray;
+  background-color:  orange;
   font-size: 26px;
+}
+#topbox {
+  height:30px;
+  background-color: orange;
+  font-size: 20px;
+  color: black;
 }
 #wnbabox {
   height:225px;
-  background-color: lightslategray;
+  background-color: orange;
   font-size: 26px;
+}
+#title {
+
+  color: rgb(7, 88, 64);;
 }
 h1 {
   text-align: center;
@@ -92,17 +102,19 @@ h1 {
 }
 p {
   text-align: center;
-  color: white;
+  color: rgb(7, 88, 64);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 
 
 #slideshow {
   overflow: hidden;
-  height: 510px;
-  width: 728px;
+  height: 528px;
+  width: 100%;
   margin: 0 auto;
+  border: solid teal;
 }
 
 .slide-wrapper {
@@ -114,6 +126,10 @@ p {
   float: left;
   height: 510px;
   width: 728px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @-webkit-keyframes slide {
@@ -122,6 +138,4 @@ p {
   50% {margin-left: -728px;}
   60% {margin-left: -1456px;}
   70% {margin-left: -1456px;}
-  80% {margin-left: -2184px;}
-  90% {margin-left: -2184px;}
 }
