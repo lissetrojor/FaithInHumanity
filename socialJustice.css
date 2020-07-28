@@ -1,12 +1,45 @@
 .parallax {
   background-image: url("https://www.berkeleyside.com/wp-content/uploads/2020/06/K0q4OHk_.jpg-large.jpeg");
+  height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url("https://thegavoice.com/wp-content/uploads/2015/01/john-lewis-bridge.jpg");
   height: 1000px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.navbar {
+.parallax3 {
+  background-image: url("https://assets3.thrillist.com/v1/image/2880875/414x310/scale;jpeg_quality=65.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/3Z9PKhbd-moDBFkawa7PsrhHfFU=/0x0:1170x780/1200x800/filters:focal(487x125:673x311)/cdn.vox-cdn.com/uploads/chorus_image/image/67000580/https___hypebeast.com_image_2020_06_nba_2k20_myplayer_i_cant_breathe_black_lives_matter_say_their_names_t_shirts_1.0.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax5 {
+  background-image: url("");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-buttons {
   overflow: hidden;
   display: flex;
   justify-content:space-evenly;
@@ -24,9 +57,9 @@ button {
 button:hover {
   opacity: 0.3;
 }
-.heading {
+.text-box {
   height:100px;
   background-color: lightslategray;
   font-size: 28px;
-  margin-bottom: 20px;
+
 }
