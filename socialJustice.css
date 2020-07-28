@@ -11,32 +11,48 @@ body{
 }
 .parallax2 {
   background-image: url("https://thegavoice.com/wp-content/uploads/2015/01/john-lewis-bridge.jpg");
-  height: 1000px;
+  height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .parallax3 {
-  background-image: url("https://assets3.thrillist.com/v1/image/2880875/414x310/scale;jpeg_quality=65.jpg");
-  height: 500px;
+  background-image: url("https://unr.s3.amazonaws.com/prod/unr2016/wp-content/uploads/2020/07/27203705/NYLiberty-scaled-1.jpg");
+  height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.parallax4 {
+/* .parallax4 {
   background-image: url("https://cdn.vox-cdn.com/thumbor/3Z9PKhbd-moDBFkawa7PsrhHfFU=/0x0:1170x780/1200x800/filters:focal(487x125:673x311)/cdn.vox-cdn.com/uploads/chorus_image/image/67000580/https___hypebeast.com_image_2020_06_nba_2k20_myplayer_i_cant_breathe_black_lives_matter_say_their_names_t_shirts_1.0.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .parallax5 {
   background-image: url("https://www.nbc.com/generetic/images/nbc_logo_og.jpg");
-  height: 1000px;
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax6 {
+  background-image: url("https://scstylecaster.files.wordpress.com/2018/01/natural-hair.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax7 {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/vKthLqjX3HNHP-ncR3iYc_xwPNo=/0x0:5472x3648/1200x800/filters:focal(3532x1434:4406x2308)/cdn.vox-cdn.com/uploads/chorus_image/image/66825699/1194539324.jpg.0.jpg");
+  height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
