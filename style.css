@@ -1,10 +1,46 @@
-.navbar {
+.topnav {
   overflow: hidden;
   display: flex;
   justify-content:space-evenly;
   position: sticky;
   top: 0px;
 }
+.topnav {
+  background-color: #292f36;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: center;
+  color: #f7fff7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #4a5561
+  color: white
+}
 body{
   background-image: url("https://media.discordapp.net/attachments/736376827982905356/737754953422078032/Background_-_Good_Vibes.jpg")
+}
+.navbuttons {
+  overflow: hidden;
+  display: flex;
+  justify-content:space-evenly;
+  position: sticky;
+  top: 0px;
+}
+button {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  border: solid 5px;
+  padding: 10px;
+  outline: none;
+}
+button:hover {
+  opacity: 0.3;
 }
