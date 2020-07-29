@@ -34,13 +34,21 @@ body{
   top: 0px;
 }
 button {
-  width: 175px;
-  height: 175px;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   border: solid 5px;
-  padding: 10px;
+  padding: 5px;
   outline: none;
+  margin-top: 10px;
+  background-color: salmon;
+  border: solid teal 5px;
 }
 button:hover {
   opacity: 0.3;
+}
+.title {
+  font-size: 65px;
+  text-align: center;
+
 }
