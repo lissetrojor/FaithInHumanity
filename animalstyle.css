@@ -28,3 +28,10 @@ body {
   background-image: url("https://cdn.discordapp.com/attachments/736376827982905356/737754953422078032/Background_-_Good_Vibes.jpg");
   background-color: #f7fff7
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
