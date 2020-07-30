@@ -29,6 +29,12 @@ body{
   color: white
 }
 
+* {
+  border: 0;
+  padding: 0;
+  margin: 0
+}
+
 .parallax2 {
   background-image: url("https://thegavoice.com/wp-content/uploads/2015/01/john-lewis-bridge.jpg");
   height: 700px;
@@ -71,22 +77,29 @@ body{
 }
 .text-box {
   height:175px;
-  background-color:  #FFE66D;
+  background-color:  #FF6B6B;
   font-size: 26px;
 }
 #topbox {
   height:30px;
-  background-color: #FFE66D;
+  background-color: #FF6B6B;
   font-size: 20px;
   color: black;
 }
 #wnbabox {
   height:225px;
-  background-color: #FFE66D;
+  background-color: #FF6B6B;
   font-size: 26px;
 }
 #title {
-  color: #292F36;
+  color: #FF6B6B;
+  text-shadow: 4px 4px #4ecdc4;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
 }
 h1 {
   text-align: center;
@@ -99,6 +112,7 @@ p {
 }
 
 
+/* SLIDESHOW */
 
 #slideshow {
   overflow: hidden;
@@ -106,20 +120,24 @@ p {
   width: 100%;
   margin: 0 auto;
   border: solid teal;
+  border-radius: 40%;
 }
 .slide-wrapper {
   width: 2912px;
   -webkit-animation: slide 18s ease infinite;
 }
 .slide {
-  float: left;
+  /* float: left;
   height: 510px;
   width: 728px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover; */
+  height: 750px;
+  background-image: url("https://www.berkeleyside.com/wp-content/uploads/2020/06/K0q4OHk_.jpg-large.jpeg");
+  background-attachment: fixed;
   background-size: cover;
-
 }
 @-webkit-keyframes slide {
   20% {margin-left: 0px;}
