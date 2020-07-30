@@ -1,6 +1,7 @@
 
 body{
-  background-image: url("https://media.discordapp.net/attachments/736376827982905356/737754953422078032/Background_-_Good_Vibes.jpg")
+  background-image: url("https://media.discordapp.net/attachments/736376827982905356/737754953422078032/Background_-_Good_Vibes.jpg");
+  font-family: 'Sarabun', sans-serif;
 }
 .topnav {
   overflow: hidden;
@@ -70,22 +71,22 @@ body{
 }
 .text-box {
   height:175px;
-  background-color:  orange;
+  background-color:  #FFE66D;
   font-size: 26px;
 }
 #topbox {
   height:30px;
-  background-color: orange;
+  background-color: #FFE66D;
   font-size: 20px;
   color: black;
 }
 #wnbabox {
   height:225px;
-  background-color: orange;
+  background-color: #FFE66D;
   font-size: 26px;
 }
 #title {
-  color: rgb(7, 88, 64);
+  color: #292F36;
 }
 h1 {
   text-align: center;
@@ -93,9 +94,8 @@ h1 {
 }
 p {
   text-align: center;
-  color: rgb(7, 88, 64);
+  color: #4ECDC4;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 
