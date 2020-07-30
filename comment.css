@@ -1,6 +1,7 @@
 body{
   background-image: url("https://cdn.discordapp.com/attachments/736376827982905356/737754953422078032/Background_-_Good_Vibes.jpg");
   text-align: center;
+  font-family: 'Sarabun', sans-serif;
 }
 .topnav {
   overflow: hidden;
@@ -49,7 +50,30 @@ input[type=button] {
 }
 #thebutton {
   margin-top: 15px;
+  border: solid 5px;
+  padding: 5px;
+  outline: none;
+  margin-top: 10px;
+  background-color: salmon;
+  border: solid teal 5px;
+}
+#wordbox {
+  border: solid #292f36;
+  margin-top: 5px;
 }
 .user-form {
   text-align: center;
+}
+.good-vibes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: solid #292f36 10px;
+}
+h1 , h2 {
+  color: #292F36
+
 }
