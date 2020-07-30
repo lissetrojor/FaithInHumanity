@@ -1,5 +1,5 @@
 body{
-  background-image: url("https://cdn.discordapp.com/attachments/736376827982905356/737754953422078032/Background_-_Good_Vibes.jpg");
+  background-color: #4a5561;
   background-size: initial;
 }
 .topnav {
@@ -26,4 +26,8 @@ body{
 .topnav a:hover {
   background-color: #4a5561;
   color: white;
+}
+.stories img{
+  width: 500px;
+  height: 300px;
 }
