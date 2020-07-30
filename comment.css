@@ -49,7 +49,25 @@ input[type=button] {
 }
 #thebutton {
   margin-top: 15px;
+  border: solid 5px;
+  padding: 5px;
+  outline: none;
+  margin-top: 10px;
+  background-color: salmon;
+  border: solid teal 5px;
 }
 .user-form {
   text-align: center;
+}
+.good-vibes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: solid #292f36 10px;
+}
+h1 {
+  color: #292F36
 }
