@@ -57,6 +57,10 @@ input[type=button] {
   background-color: salmon;
   border: solid teal 5px;
 }
+#wordbox {
+  border: solid #292f36;
+  margin-top: 5px;
+}
 .user-form {
   text-align: center;
 }
@@ -69,6 +73,7 @@ input[type=button] {
   margin-bottom: 20px;
   border: solid #292f36 10px;
 }
-h1 {
+h1 , h2 {
   color: #292F36
+
 }
