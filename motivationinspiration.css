@@ -1,0 +1,33 @@
+body{
+  background-color: #4a5561;
+  background-size: initial;
+}
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content:space-evenly;
+  position: sticky;
+  top: 0px;
+}
+.topnav {
+  background-color: #292f36;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: center;
+  color: #f7fff7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #4a5561;
+  color: white;
+}
+.stories img{
+  width: 500px;
+  height: 300px;
+}
