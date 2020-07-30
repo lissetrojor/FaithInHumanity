@@ -92,12 +92,14 @@ body{
   font-size: 26px;
 }
 #title {
-  color: #FF6B6B;
-  text-shadow: 4px 4px #4ecdc4;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #4ecdc4;
+  text-shadow: 3px 3px #FF6B6B;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: beige;
 
 
 }
