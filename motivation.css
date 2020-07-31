@@ -39,14 +39,14 @@ body{
 }
 .left{
   background:rgb(133, 121, 145);
-  opacity: 0.8;
+  opacity: 1.0;
  /*background-image: url("https://i.gifer.com/9vil.gif");*/
   background-size: cover;
 
 }
 .right{
   background:rgb(247, 186, 186);
-  opacity: 0.8;
+  opacity: 1.0;
   /* background-image: url("https://i.pinimg.com/originals/14/3d/cd/143dcd6d932d6b10475014e1bddc9c32.gif");*/
   background-size: cover;
 }
@@ -74,7 +74,8 @@ a.button2{
   }
   @media all and (max-width:30em){
 
-  a.button2{
+  a.button2
+  {
   display:block;
   margin:0.4em auto;
    }

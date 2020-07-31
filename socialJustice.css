@@ -119,6 +119,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 @-webkit-keyframes slide {
   20% {margin-left: 0px;}

@@ -1,0 +1,61 @@
+body{
+  background-color: #677a8a;
+
+  background-size: initial;
+}
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content:space-evenly;
+  position: sticky;
+  top: 0px;
+}
+.topnav {
+  background-color: #292f36;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: center;
+  color: #f7fff7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #4a5561;
+  color: white;
+}
+#content{
+  display: flex;
+  position: static;
+  perspective: initial;
+
+}
+#links {
+  float: left;
+  text-align-last:left;
+  position: sticky;
+  background-color: #9b9b9b;
+  color: rgb(63, 63, 63);
+  font-style: oblique;
+ font-weight: 700;
+  padding: 1em 1.0em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.diamond-effect {
+
+  max-width: 100%;
+  margin-bottom: 2rem;
+  -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  transition: 1s;
+  }
+
+  .diamond-effect:hover {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
