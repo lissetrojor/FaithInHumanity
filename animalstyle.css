@@ -79,3 +79,22 @@ div.pics {
   font-family: 'Montserrat', sans-serif;
   color: #292f36
 }
+
+#groove {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#lorem {
+  font-size: 13px;
+  line-height: 10px;
+  font-weight: 900;
+  margin: 100;
+  background: url(https://media.giphy.com/media/WqY0nrkyKU1SE3FWoi/giphy.gif);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255)
+}
