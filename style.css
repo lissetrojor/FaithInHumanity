@@ -1,88 +1,90 @@
-.topnav {
-  overflow: hidden;
-  display: flex;
-  justify-content:space-evenly;
-  position: sticky;
-  top: 0px;
+*{
+  box-sizing:border-box;
 }
 .topnav {
-  background-color: #292f36;
-  overflow: hidden;
-}
+    overflow: hidden;
+    display: flex;
+    justify-content:space-evenly;
+    position: sticky;
+    top: 0px;
+  }
+  .topnav {
+    background-color: #292f36;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: center;
+    color: #f7fff7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #4a5561;
+    color: white;
+  }
 
-.topnav a {
-  float: center;
-  color: #f7fff7;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  body{
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    /* position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; */
 }
-
-.topnav a:hover {
-  background-color: #4a5561
-  color: white
-}
-body{
-  /* background-image: url("https://media.discordapp.net/attachments/736376827982905356/737754953422078032/Background_-_Good_Vibes.jpg") */
-  background-image: url("https://images.unsplash.com/photo-1583512603806-077998240c7a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80");
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
 }
 .navbuttons {
-  overflow: hidden;
-  display: flex;
-  justify-content:space-evenly;
-  position: sticky;
-  top: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-evenly;
+    position: sticky;
+    top: 0px;
 }
 button {
-  width: 125px;
-  height: 125px;
-  border-radius: 50%;
-  border: solid 5px;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  border: solid 10px;
   padding: 5px;
   outline: none;
   margin-top: 10px;
-  background-color: salmon;
-  border: solid teal 5px;
+  background-color: #1d232b;
+  border: solid rgb(231, 67, 95);
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1em;
 }
 button:hover {
-  opacity: 0.3;
+    background-color: rgb(243, 243, 49);
+    color: rgb(42, 148, 209);
+    border: solid rgb(243, 243, 49);
+    opacity: 0.8;
 }
-.title {
-  font-size: 65px;
+.content {
   text-align: center;
-  /* left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  position: absolute;
-  letter-spacing: 5px;
-  text-align: center;*/
-}
-/* .load{
-  animation: slide 2s;
-}
-.slider{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  color: #f1f1f1;
   width: 100%;
-  height: 100vh;
-  animation: slide 40s infinite;
+  padding: 20px;
 }
-.content{
-  color: #fff;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0,0,0,0.5);
+h1 {
+  letter-spacing: 6px;
+  text-indent: 10em;
+  font-size: 2em;
+  color: white;
 }
-@keyframes slide{
-  0%{
-    background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-  }
-  50%{
-    background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-  }
-  100%{
-    background-image: url(https://images.unsplash.com/photo-1583512603784-a8e3ea8355b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80);
-  }
-} */
